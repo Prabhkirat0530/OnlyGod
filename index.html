@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OnlyGod</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/28467c7d6e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color: rgb(255, 249, 236);">
+
+    <!-- Navigation bar -->
+    <nav id="myTopnav">
+        <div class="topnav">
+
+            <img id="logo" src="Media/god.png">
+
+            <a href="#blogs">BLOG</a>
+            <a href="#">PROJECTS</a>
+            <a href="#">YOURS</a>
+            <a href="#">ABOUT</a>
+
+            <div id="icons">
+                <a title="Twitter" href="https://twitter.com/PrabhkiratSin17">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                        class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+
+                <a title="LinkedIn" href="https://www.linkedin.com/in/prabhkirat-singh-12a5691b7/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                </a>
+
+                <a title="Mail" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                    </svg>
+                </a>
+
+                <a title="Github" href="https://github.com/Prabhkirat0530">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Body -->
+
+    <div class="w-100 mx-auto">
+        <h1 class="p-5 text-center fw-bold m-5" style="font-size: 70px;">
+            OnlyGod Knows All About God<br>
+            <small class="text-muted">Human know's the Path</small>
+        </h1>
+        <p class="text-muted text-center px-5">
+            Your task is not to seek for Love,
+            But merely to seek and find all the barriers
+            within yourself that you have built against it <br>-Rumi
+        </p><br>
+    </div>
+
+
+    <!-- Blogs -->
+
+    <section class="scroll-container w-100" id="blogs">
+        <div class="row row-cols-2 px-5">
+            <div class="col w-50">
+                <div class="scroll-element js-scroll fade-in-bottom shadow-lg rounded">
+                    <a href="/"><img class="card-img-top" src="Media/religion.jpg"></a>
+                    <div style="padding: 20px;">
+                        <h2>Concept of Religion</h2>
+
+                        <p>Participated and Organised a 2-day online coding National level hackathon. With
+                            the team of four we created CARD FEEDER, a simple tool to have an identity card for
+                            unorganized sector. I was
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col w-50">
+                <div class="scroll-element js-scroll fade-in-bottom shadow-lg rounded">
+                    <a href="/"><img class="card-img-top" src="Media/politics.jpg"></a>
+                    <div style="padding: 20px;">
+                        <h2>Role of Politics</h2>
+
+                        <p>Participated and Organised a 2-day online coding National level hackathon. With
+                            the team of four we created CARD FEEDER, a simple tool to have an identity card for
+                            unorganized sector. I was
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col w-50">
+                <div class="scroll-element js-scroll fade-in-bottom shadow-lg rounded">
+                    <a href="/"><img class="card-img-top" src="Media/nature.jpg"></a>
+                    <div style="padding: 20px;">
+                        <h2>Nature, Gods wife</h2>
+
+                        <p>Participated and Organised a 2-day online coding National level hackathon. With
+                            the team of four we created CARD FEEDER, a simple tool to have an identity card for
+                            unorganized sector. I was
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col w-50">
+                <div class="scroll-element js-scroll fade-in-bottom shadow-lg rounded">
+                    <a href="/"><img class="card-img-top" src="Media/yougod.jpg"></a>
+                    <div style="padding: 20px;">
+                        <h2>You, Your own God</h2>
+
+                        <p>Participated and Organised a 2-day online coding National level hackathon. With
+                            the team of four we created CARD FEEDER, a simple tool to have an identity card for
+                            unorganized sector. I was
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Block -->
+    <div class="info-block js-scroll fade-in">
+
+        <h2>Hack with Her 3.0</h2>
+
+        <p>Participated and Organised a 2-day online coding <b>National level hackathon</b>. With the team
+            of four we created CARD FEEDER, a simple tool to have an identity card for unorganized sector. I was
+            the team leader and presented our idea with a working website to the mentors from microsoft and
+            Google Developer Student Club. I also recived an appreciation letter (in first year itself) from IEEE
+            for my work in organising.
+        </p>
+    </div>
+
+
+    <!-- Clouds -->
+    <div class="container-fluid w-100 text-center">
+        <img class="mx-5 w-25 js-scroll fade-in-bottom" src="Media/cloud.png">
+        <img class="my-5 w-50" src="Media/cloud.png">
+        <img class="mx-5 w-25 js-scroll fade-in-bottom" src="Media/cloud.png">
+    </div>
+
+
+    <!-- Form -->
+    <div class="container py-5 w-100">
+        <div class="mb-3 w-50">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3 w-50">
+            <label for="exampleFormControlTextarea1" class="form-label">Your Thoughts</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-success">Submit</button>
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <footer id="about" class="bd-footer">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-5 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/">
+                        <img id="logo2" src="Media/god.png">
+                        <span class="fs-5 fw-bold">OnlyGod</span>
+                    </a>
+                    <ul class="list-unstyled small text-muted">
+                        <li class="mb-2">Designed and built with love by <a class="text-decoration-none"
+                                href="https://github.com/Prabhkirat0530">prabhkirat</a>.
+                        </li>
+                        <li class="mb-2">Code licensed, docs <a class="text-decoration-none" href="/" target="_blank"
+                                rel="license noopener">Github</a>.</li>
+                        <li class="mb-2">Currently v1.0</li>
+                    </ul>
+                </div>
+                <div class="col-5 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Navigation</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="text-decoration-none" href="/">Home</a></li>
+                        <li class="mb-2"><a class="text-decoration-none" href="#blogs">Blog</a>
+                        </li>
+                        <li class="mb-2"><a class="text-decoration-none" href="/">Docs</a></li>
+                        <li class="mb-2"><a class="text-decoration-none" href="/">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 col-lg-2 mb-3">
+                    <h5>Guides</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="text-decoration-none" href="/docs/5.1/getting-started/">Getting
+                                started</a></li>
+                        <li class="mb-2"><a class="text-decoration-none"
+                                href="/docs/5.1/examples/starter-template/">Starter template</a></li>
+                        <li class="mb-2"><a class="text-decoration-none"
+                                href="/docs/5.1/getting-started/webpack/">Webpack</a></li>
+                        <li class="mb-2"><a class="text-decoration-none"
+                                href="/docs/5.1/getting-started/parcel/">Parcel</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 col-lg-2 mb-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="text-decoration-none"
+                                href="https://github.com/twbs/bootstrap">Wikipedia</a></li>
+                        <li class="mb-2"><a class="text-decoration-none"
+                                href="https://github.com/twbs/bootstrap/tree/v4-dev">Soon</a></li>
+                        <li class="mb-2"><a class="text-decoration-none" href="https://github.com/twbs/icons">Icons</a>
+                        </li>
+                        <li class="mb-2"><a class="text-decoration-none" href="https://github.com/twbs/rfs">RFS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- Scripts -->
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <script>
+        const scrollElements = document.querySelectorAll(".js-scroll");
+
+        const elementInView = (el, dividend = 1) => {
+            const elementTop = el.getBoundingClientRect().top;
+
+            return (
+                elementTop <=
+                (window.innerHeight || document.documentElement.clientHeight) / dividend
+            );
+        };
+
+        const elementOutofView = (el) => {
+            const elementTop = el.getBoundingClientRect().top;
+
+            return (
+                elementTop > (window.innerHeight || document.documentElement.clientHeight)
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add("scrolled");
+        };
+
+        const hideScrollElement = (element) => {
+            element.classList.remove("scrolled");
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 1.25)) {
+                    displayScrollElement(el);
+                } else if (elementOutofView(el)) {
+                    hideScrollElement(el)
+                }
+            })
+        }
+        window.addEventListener("scroll", () => {
+            handleScrollAnimation();
+        });
+    </script>
+
+</body>
+
+</html>

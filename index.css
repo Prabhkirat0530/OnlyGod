@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation*/
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#logo2{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 2px;
+}
+
+#myTopnav{
+    top: 0;
+}
+
+.topnav {
+    height: auto;
+    width: 95%;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 10px 50px 0 50px;
+}
+.topnav a {
+    display: inline-block;
+    color: rgb(133, 133, 133);
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.topnav a:hover {
+    color: black;
+    transition: ease-in-out bottom 1s, ease-in-out left 1s;
+    transform: translateY(-1px);
+    bottom: 40px;
+}
+
+#icons{
+    display: inline;
+    float: right;
+    width: auto;
+}
+@media screen and (max-width: 750px) {
+    #icons{
+        display: none;
+    }
+}
+
+
+
+/* Body */
+
+.lead{
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.info-block{
+	width: auto;
+	height: auto;
+  background-color: rgb(193,154,108);
+  padding: 30px;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+
+
+/* Blogs Container */
+
+.scroll-container {
+  height: auto;
+  min-height: 450px;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.scroll-element {
+  width: auto;
+  height: auto;
+  background-color: rgb(248, 249, 250);;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.scroll-container:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+
+@media screen and (max-width: 650px) {
+  .scroll-container,
+  .scroll-container:nth-of-type(even) {
+    flex-direction: column;
+    align-content: inherit;
+  }
+
+  .scroll-element {
+    height: 100%;
+  }
+
+  .scroll-element {
+    width: 100%;
+  }
+}
+
+/**Styling scrollable elements*/
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+.scrolled.fade-in-bottom {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(249, 249, 250);
+    margin-top: 200px;
+    padding: 20px;
+    border-top: 1px black solid;
+}
